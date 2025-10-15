@@ -3,7 +3,7 @@
 
   <slot />
 
-  <Footer />
+ 
 
   <Cart v-if="viewCart"/>
 </template>
@@ -11,4 +11,5 @@
 import {useViewCart} from "~/composables/states.js";
 
 const viewCart = useViewCart()
+
 </script>
